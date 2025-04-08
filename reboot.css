@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans", "Arial", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+  min-width: 1280px;
+  padding: 0;
+  color: #1E222E;
+}
+
+main {
+  flex-grow: 1;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.steps-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 0 100px;
+}
+
+.steps-list__item {
+  width: 33%;
+  text-align: center;
+}
+
+.steps-list__count {
+  display: inline-flex;
+  text-align: center;
+  justify-content: center;
+  margin: 0 0 16px;
+}
+
+.steps-list__count {
+  text-align: center;
+}
+
+.steps-list__item .steps-list__count {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  padding: 9px 0px;
+  width: 64px;
+  background-color: rgba(71, 107, 240, 1);
+  border-radius: 12px;
+  color: #FFFFFF;
+}
+
+.steps-list__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.steps-list__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+}
+
+.steps-list__link {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-decoration: underline;
+}
+
+.steps-list__item .steps-list__count--medium {
+  padding: 9px 36px;
+}
+
+.steps-list__item .steps-list__count--large {
+  padding: 9px 52px;
+}
+
+.about-app {
+  display: flex;
+  gap: 0 100px;
+}
+
+.about-app__inner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.about-app__title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  margin: 0;
+}
+
+.about-app__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 32px;
+}
+
+.about-app__links {
+  display: flex;
+  gap: 0 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.about-app__links .about-app__link {
+  padding: 14px 45px;
+  background-color: rgba(237, 238, 239, 1);
+  border-radius: 8px;
+  text-decoration: none;
+  color: rgba(30, 34, 46, 1);
+}
+
+
+.about-app__links .about-app__link--secondary{
+  padding: 14px 56px;
+  background-color: rgba(30, 34, 46, 1);
+  border-radius: 8px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
